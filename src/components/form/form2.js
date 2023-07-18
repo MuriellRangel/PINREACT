@@ -11,7 +11,7 @@ function Form2() {
   /*conexión a base de datos*/
   const onSubmit = (data) => {
     // console.log(data);
-    axios.post('https://cors-anywhere.herokuapp.com/https://back-app-production.up.railway.app/api/registrapersona', data)
+    axios.post('https://back-app-production.up.railway.app/api/registrapersona', data)
       .then((response) => {
         console.log(response);
         alert('✅ ¡Envío Exitoso!');
