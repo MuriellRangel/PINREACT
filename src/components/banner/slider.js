@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import FirstIma from '../../assets/slidercentrado_1.webp'
 import SecondIma from '../../assets/slider-banner-2.webp'
 import ThirdIma from '../../assets/slider-banner-3.webp'
-import Custombutton from '../../common/cusbutton'
+import Custombutton from '../../components/banner/cusbutton'
 import './slider.css'
 
 function Slider() {

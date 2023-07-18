@@ -1,5 +1,4 @@
 import React from 'react'
-import './custombutton.css'
 import { Link } from 'react-scroll';
 
 
